@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header class="text-xl  font-bold flex items-center justify-between  ">
+        <h1 class="text-4xl font-serif">Nexcent</h1>
+            <ul class="flex items-center justify-center gap-8 ">
+                <li class="text-gray-500 hover:text-green-500"><a href="Home">Home</a></li>
+                <li class="text-gray-500 hover:text-green-500"><a href="Features">Features</a></li>
+                <li class="text-gray-500 hover:text-green-500"><a href="community">community</a></li>
+                <li class="text-gray-500 hover:text-green-500"><a href="Blog">Blog</a></li>
+                <li class="text-gray-500 hover:text-green-500"><a href="pricing">pricing</a></li>
+                <button class="bg-green-600 border-none text-white py-4 px-8 text-center no-underline inline-block text-lg m-1 cursor-pointer rounded-xl">
+                    Register Now
+                  </button>
+            </ul> 
+        </header>
+        <main>
+            <section> 
+                <swiper-container class="bg-gray-100 h-[25rem] " pagination="true">
+                    <swiper-slide class="flex gap-x-96">
+                        <div class="bg-orange-700 w-[35rem] flex justify-center items-center flex-col gap-y-4">
+                            <p class="text-5xl font-bold text-gray-900">Lesson and insights</p>
+                            <p class="text-5xl font-bold text-green-600">from 8 years</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, rem.</p>
+                            <button class="bg-green-600 border-none text-white py-4 px-8 text-center no-underline inline-block text-lg m-1 cursor-pointer rounded-xl">
+                                Register </button>
+                        </div>
+                        <img src="Capture.PNG">
+                   </swiper-slide>
+                    <swiper-slide>Slide 2</swiper-slide>
+                    <swiper-slide>Slide 3</swiper-slide>
+                </swiper-container>
+            </section>
+        </main>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  </body>
+</html>
